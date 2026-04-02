@@ -43,6 +43,11 @@ Hi 👋, I'm Anderson Patrick! A passionate Systems Information student from Bra
 
 ---
 
+## snake
+
+![Snake animation](https://github.com/PatrickSousaf/PatrickSousaf/blob/main/snake.svg)
+
+---
 <div align="center">
 
 ## 💻 Tech Stack ⚡
