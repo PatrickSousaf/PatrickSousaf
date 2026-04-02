@@ -3,14 +3,17 @@ name: Snake animation
 on:
   schedule:
     - cron: "0 0 * * *" # executa diariamente
-  workflow_dispatch:
+  workflow_dispatch:     # permite rodar manualmente
 
 jobs:
   snake:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
-      - name: Run Snake
-        uses: platane/snk@v0.7.0
+      - name: Generate snake animation
+        uses: Platane/snk@v3
         with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
+          github_user_name: ${{ github.repository_owner }}
+          # opcional: sairia em dist/github-snake.svg
+          outputs: |
+            dist/github-snake.svg
