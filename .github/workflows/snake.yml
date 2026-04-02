@@ -9,24 +9,23 @@ jobs:
   snake:
     runs-on: ubuntu-latest
     permissions:
-      contents: write  # ✅ necessário para fazer push
+      contents: write
 
     steps:
-      # 1️⃣ Puxa o repositório
-      - uses: actions/checkout@v4  # ✅ v3 → v4
+      - uses: actions/checkout@v4
 
-      # 2️⃣ Gera a Snake
       - name: Generate Snake
         uses: platane/snk@v3
         with:
           github_user_name: ${{ github.repository_owner }}
-          outputs: github-snake.svg  # ✅ sem comentário inline
+          outputs: |
+            dist/github-snake.svg
+            dist/github-snake-dark.svg?palette=github-dark
 
-      # 3️⃣ Commit e push do SVG gerado
-      - name: Commit Snake
-        run: |
-          git config --local user.name "github-actions"
-          git config --local user.email "github-actions@github.com"
-          git add github-snake.svg
-          git commit -m "Update Snake animation" || echo "No changes to commit"
-          git push
+      - name: Push Snake to output branch
+        uses: crazy-max/ghaction-github-pages@v4
+        with:
+          target_branch: output
+          build_dir: dist
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

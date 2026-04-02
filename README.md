@@ -47,7 +47,11 @@ Hi 👋, I'm Anderson Patrick! A passionate Systems Information student from Bra
 
 ### A Snake Eating GitHub Contributions
 
-![GitHub Snake](https://github.com/PatrickSousaf/PatrickSousaf/raw/main/github-snake.svg)
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/PatrickSousaf/PatrickSousaf/output/github-snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/PatrickSousaf/PatrickSousaf/output/github-snake.svg" />
+  <img alt="github-snake" src="https://raw.githubusercontent.com/PatrickSousaf/PatrickSousaf/output/github-snake.svg" />
+</picture>
 
 </div>
 
