@@ -2,21 +2,24 @@ name: Snake animation
 
 on:
   schedule:
-    - cron: "0 0 * * *" # diário
+    - cron: "0 0 * * *"  # roda todo dia à meia-noite
   workflow_dispatch:     # permite rodar manualmente
 
 jobs:
   snake:
     runs-on: ubuntu-latest
     steps:
+      # 1️⃣ Puxa o repositório
       - uses: actions/checkout@v3
 
+      # 2️⃣ Gera a Snake
       - name: Generate Snake
         uses: platane/snk@v3
         with:
           github_user_name: ${{ github.repository_owner }}
-          output: github-snake.svg  # <--- ESSENCIAL, define o arquivo de saída
+          output: github-snake.svg   # gera o arquivo github-snake.svg na raiz
 
+      # 3️⃣ Commit e push do SVG gerado
       - name: Commit Snake
         run: |
           git config --local user.name "github-actions"
