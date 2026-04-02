@@ -43,6 +43,8 @@ Hi 👋, I'm Anderson Patrick! A passionate Systems Information student from Bra
 
 ---
 
+<div align="center">
+
 ## 💻 Tech Stack ⚡
 ![C](https://img.shields.io/badge/c-%2300599C.svg?style=for-the-badge&logo=c&logoColor=white) 
 ![C++](https://img.shields.io/badge/c++-%2300599C.svg?style=for-the-badge&logo=c%2B%2B&logoColor=white) 
@@ -82,14 +84,19 @@ Hi 👋, I'm Anderson Patrick! A passionate Systems Information student from Bra
 ![Raspberry Pi](https://img.shields.io/badge/-RaspberryPi-C51A4A?style=for-the-badge&logo=Raspberry-Pi)
 -->
 
----
+</div>
 
+---
+<div align="center">
+  
 ## 🌐 Connect with Me 🍬
 
 [![Instagram](https://img.shields.io/badge/Instagram-E4405F?logo=Instagram&logoColor=white)](https://www.instagram.com/patricksousz_/?igsh=MWVna2thd2ZmNnZ3Zw%3D%3D&utm_source=qr) 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/anderson-patrick-213398400) 
 [![Discord](https://img.shields.io/badge/Discord-7289DA?logo=discord&logoColor=white)](#) <!-- coloque o link depois -->
 [![Email](https://img.shields.io/badge/Email-D14836?style=flat&logo=gmail&logoColor=white)](mailto:contatorpatricksousa@gmail.com)
+
+</div>
 
 ---
 
