@@ -115,9 +115,8 @@ Hi 👋, I'm Anderson Patrick! A passionate Systems Information student from Bra
 
 ---
 
-## 🚀 Portfolio
-- [Guardião da Meta](https://github.com/PatrickSousaf/Guardio-da-Meta) – sistema web para gerenciamento de metas pessoais com Laravel  
-- [OrganizaEvento](https://github.com/PatrickSousaf/OrganizaEvento) – sistema web para gerenciamento e organização de eventos (em desenvolvimento)  
+## 🚀 Portfolio 
+- [OrganizaEvento](https://github.com/PatrickSousaf/OrganizaEvento) – Web-based system for managing and organizing events (under development) 
 
 <div align="center">
   <img src="https://github.com/PatrickSousaf/PatrickSousaf/raw/main/assets/tumblr_d5fa1b32fceecf28c9698cbe0e970067_8391786c_1280.webp" alt="GIF/WebP" width="500"/>
