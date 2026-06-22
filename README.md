@@ -1,4 +1,4 @@
-me ajuda a colocar A Snake Eating GitHub Contributions nisso <!-- título -->
+ <!-- título -->
 <div align="center">
   <h1>Welcome 👋</h1>
 </div>
