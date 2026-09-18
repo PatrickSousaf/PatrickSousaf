@@ -18,7 +18,7 @@ Hi 👋, I'm Anderson Patrick! A passionate Systems Information student from Bra
   <summary>👨‍💻 More about me</summary>
 
   <ul>
-    <li>💬 I am 17 years old and currently living in Brazil.</li>
+    <li>💬 I am 18 years old and currently living in Brazil.</li>
     <li>💻 I have knowledge in SQL, PHP, HTML, CSS, Python and JavaScript.</li>
     <li>📚 I am currently learning C and improving my programming logic.</li>
     <li>🧠 I enjoy solving problems, learning new technologies and building projects.</li>
